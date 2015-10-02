@@ -3,7 +3,7 @@
     "description": "Session",
     "type": "library",
     "keywords": ["framework"],
-    "license": "none",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hieu Trieu",

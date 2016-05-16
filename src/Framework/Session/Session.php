@@ -23,7 +23,11 @@ class Session
      */
     public function __construct()
     {
-        session_start();
+        $status = session_status();
+        if($status == PHP_SESSION_NONE){
+            //There is no active session
+            session_start();
+        }
     }
     /**
      * Destructor.
